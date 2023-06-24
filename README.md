@@ -9,12 +9,13 @@ This project provides an implementation of the Jhonson Method of Job Scheduling 
 - Calculates the optimal order of jobs for a two-machine environment
 - Determines the total processing time for the job schedule
 - Provides an efficient solution for minimizing processing time
-#Usage
+
+# Usage
 This code implies the Jhonson Method of Job Scheduling in a Streamlit app. The app allows users to enter the number of jobs and machines, and then input the processing times for each job on each machine. The app then calculates the optimal order of jobs, determines the ideal time of the machines, and calculates the total processing time required. 
 
-#Contributing
+# Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
-#Contact
+# Contact
 If you have any questions, suggestions, or want to collaborate on this project, please feel free to reach out to me.
 Email : harish11ndsh@gmail.com
