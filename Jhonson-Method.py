@@ -117,7 +117,7 @@ hide_streamlit_style = """
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.header('Jhonson-method')
+st.header('Jhonson Method of Job scheduling')
 st.markdown("""---""")
 
 col1,col2=st.columns(2)
