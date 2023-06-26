@@ -35,7 +35,7 @@ def calculate(machine_mat ,  rows, cols):
         machine_1 = np.zeros((jobs, 2))
         if machines > 2:
             for i in range(len(machine_mat)):
-                machine_1[i, 0] = machine_mat[i, 0]
+                machine_1[i, 0] = machine_mat[i, 0] + machine_mat[i,1]
                 machine_1[i, 1] = sum([x for x in machine_mat[i]]) - machine_mat[i, 0]
         else:
             machine_1 = machine_mat
